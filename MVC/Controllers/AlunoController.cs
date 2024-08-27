@@ -30,7 +30,7 @@ namespace MVC.Controllers
             listaAlunos.Add(a4);
             listaAlunos.Add(a5);
 
-            return View();
+            return View(listaAlunos);
         }
         public IActionResult Cadastrar()
         {
